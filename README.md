@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# ANA363 - Advanced Wrangling in SAP Analytics Cloud
 
 ## Description
 
