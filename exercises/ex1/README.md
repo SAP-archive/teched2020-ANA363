@@ -1,44 +1,156 @@
-# Exercise 1 - Exercise 1 Description
+# Excercise 1 - Exercise 1
 
-In this exercise, we will create...
+BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
+BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
+BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
 
-## Exercise 1.1 Sub Exercise 1 Description
+##Estimated Time: 20 minutes
 
-After completing these steps you will have created...
+## Objective
 
-1. Click here.
-<br>![](/exercises/ex1/images/01_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ). 
-```
+In the following exercise you will learn the basic workflow for Smart Wrangling in SAP Analytics Cloud.  
 
 
+## What You Learn
 
-## Exercise 1.2 Sub Exercise 2 Description
+*Find your way around the smart wrangler
+*Create level and geo hierarchies
+	
 
-After completing these steps you will have...
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
+###Step 1
 
-```
+Open …
 
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
+![alt text](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex11/images/Ww "Ww")
+
+
+###Step 2
+
+Click …
+
+
+###Step 3
+
+Click …
+
+
+###Step 4
+
+Select …
+
+
+###Step 5
+
+Choose Edit  …
+
+
+###Step 6
+
+…
+
+
+###Step 7
+
+…
+
+
+###Step 8
+
+
+
+
+###Step 9
+
+Open …
+
+![alt text](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex21/images/Ww "Ww")
+
+
+###Step 10
+
+Click …
+
+
+###Step 11
+
+Click …
+
+
+###Step 12
+
+Select …
+
+
+###Step 13
+
+Choose Edit  …
+
+
+###Step 14
+
+…
+
+
+###Step 15
+
+…
+
+
+###Step 16
+
+
+
+
+###Step 17
+
+Open …
+
+![alt text](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex31/images/Ww "Ww")
+
+
+###Step 18
+
+Click …
+
+
+###Step 19
+
+Click …
+
+
+###Step 20
+
+Select …
+
+
+###Step 21
+
+Choose Edit  …
+
+
+###Step 22
+
+…
+
+
+###Step 23
+
+…
+
+
+###Step 24
+
+
+
+
 
 
 ## Summary
 
-You've now ...
+BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 
+
+
+Continue to - [Exercise 1](../ex1/README.md)

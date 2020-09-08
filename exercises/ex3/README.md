@@ -1,20 +1,19 @@
-# Excercise 2 - Exercise 2
+# Excercise 3 - Exercise 3
 
 BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
 BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
 BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
 
-##Estimated Time: 10 minutes
+##Estimated Time: 40 minutes
 
 ## Objective
 
-In the following exercise you will learn more about creating geo hierarchies in the SAP Analytics Cloud Smart Wrangler, by creating a multi level hierarchy for a single country.
+In the following exercise you will learn the basics of working with the Wrangling Expression Language.
 
 
 ## What You Learn
 
-*Create multi-level geo hierarchies for datasets
-*Create geo hierarchies for specific countries
+*How to wield the wrangling expression language for more refined wrangling
 	
 
 
@@ -151,6 +150,3 @@ Choose Edit  …
 BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam liber te conscient to factor tum poen legum odioque civiuda
 
 
-
-
-Continue to - [Exercise 2](../ex2/README.md)
