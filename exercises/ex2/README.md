@@ -14,7 +14,9 @@ In the following exercise you will learn more about creating geo hierarchies in 
 ## What You Learn
 
 *Create multi-level geo hierarchies for datasets
+
 *Create geo hierarchies for specific countries
+
 	
 
 

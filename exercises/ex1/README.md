@@ -14,7 +14,9 @@ In the following exercise you will learn the basic workflow for Smart Wrangling 
 ## What You Learn
 
 *Find your way around the smart wrangler
+
 *Create level and geo hierarchies
+
 	
 
 
