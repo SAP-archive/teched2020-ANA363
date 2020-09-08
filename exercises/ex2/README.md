@@ -153,4 +153,4 @@ BodyCopy / Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed doeius
 
 
 
-Continue to - [Exercise 2](../ex2/README.md)
+Continue to - [Exercise 3](../ex3/README.md)
