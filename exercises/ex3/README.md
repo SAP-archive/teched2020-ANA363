@@ -64,7 +64,7 @@ Choose Edit  …
 
 Open …
 
-![alt text](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex21/images/Ww "Ww")
+![alt text](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex21/images/01_01_0010.png "01_01_0010.png")
 
 
 ### Step 10
