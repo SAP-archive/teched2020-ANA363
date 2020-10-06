@@ -25,224 +25,187 @@ Shipwrecks Ahoy!  In this exercise, you will create a new story, with a linked m
 
 When you first log into SAP Analytics Cloud, you should be presented with the home screen.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.01.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.01.png?raw=true")
-
-
+![][image-1]
 ### Step 2
 
 On the Home menu, select Create >> Story
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.02.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.02.png?raw=true")
-
-
+![][image-2]
 ### Step 3
 
 On the Home menu, select Create >> Story
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.02.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.02.png?raw=true")
-
-
+![][image-3]
 ### Step 4
 
 In the new story, select “Add a Canvas Page”.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.03.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.03.png?raw=true")
-
-
+![][image-4]
 ### Step 5
 
 Let’s click the button to add some data!
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.04.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.04.png?raw=true")
-
-
+![][image-5]
 ### Step 6
 
 When asked to choose where you would like to get your data, choose to upload a file.Important!  Choosing either to upload data or to connect to a source will create an new embedded dataset, where the dataset exists inside the story and is not accessible from anywhere else.   
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.05.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.05.png?raw=true")
-
-
+![][image-6]
 ### Step 7
 
 Download AWOIS_Wrecks.csv if you have not already done so.  Click Select Source File to choose the file.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.06.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.06.png?raw=true")
-
-
+![][image-7]
 ### Step 8
 
 Select the location where you have saved AWOIS_Wrecks.csv.  Click Import.Give your dataset a name when prompted.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.07.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.07.png?raw=true")
-
-
+![][image-8]
 ### Step 9
 
 The dataset will load.  Progress bars will indicate the progress in loading and preparing the dataset import.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.08.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.08.png?raw=true")
-
-
+![][image-9]
 ### Step 10
 
 When dataset import and preparation is done, you will see the smart wrangler screen.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.09.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.09.png?raw=true")
-
-
+![][image-10]
 ### Step 11
 
 Before we venture any further, let’s take a tour of the various parts of the smart wrangler UI. 1- If your dataset is larger than 2000 rows, you will see a popup, informing you how big your dataset is and that the first 2000 rows have been sampled in the wrangler.  The wrangler samples large datasets for the sake of interactive responsiveness.2 – The Dataset Overview in the Details pane replaces the card view from the classic wrangler.  It lists the columns and groups measures and dimensions.  3 – Your data occupies the spreadsheet.4- Because you are working with an embedded dataset, you can freely toggle back and forth between the wrangler and story builder.5 – In the Actions group of the toolbar, you have the menu options specific to wrangling.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.10.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.10.png?raw=true")
-
-
+![][image-11]
 ### Step 12
 
 Save your story and name it for the first time, so that you can save it as you work with hotkey commands.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.11.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.11.png?raw=true")
-
-
+![][image-12]
 ### Step 13
 
 Have a look at your dataset in the Dataset Overview panel.Note that the columns with text columns have been flagged as dimensions and the ones with numerical values have been flagged as probable measures.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.12.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.12.png?raw=true")
-
-
+![][image-13]
 ### Step 14
 
 LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimensions, so make them dimensions by dragging them down to the dimension area.Alternatively, you can select the “more” menu (the ellipsis, …) on individual columns in the Dataset Overview.
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex1/images/https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.13.png?raw=true "https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.13.png?raw=true")
-
-
+![][image-14]
 ### Step 15
 
 
 
-
+![][image-15]
 ### Step 16
 
 
 
-
+![][image-16]
 ### Step 17
 
 
 
-
+![][image-17]
 ### Step 18
 
 
 
-
+![][image-18]
 ### Step 19
 
 
 
-
+![][image-19]
 ### Step 20
 
 
 
-
+![][image-20]
 ### Step 21
 
 
 
-
+![][image-21]
 ### Step 22
-
-
-
-
-### Step 23
 
 Open …
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex2/images/Ww "Ww")
+![][image-1]
+### Step 23
 
+Click …
 
+![][image-2]
 ### Step 24
 
 Click …
 
-
+![][image-3]
 ### Step 25
-
-Click …
-
-
-### Step 26
 
 Select …
 
-
-### Step 27
+![][image-4]
+### Step 26
 
 Choose Edit  …
 
+![][image-5]
+### Step 27
 
+…
+
+![][image-6]
 ### Step 28
 
 …
 
-
+![][image-7]
 ### Step 29
 
-…
 
 
+![][image-8]
 ### Step 30
-
-
-
-
-### Step 31
 
 Open …
 
-![](https://github.com/SAP-samples/teched2020-ANA363/raw/master/exercises/ex3/images/Ww "Ww")
+![][image-1]
+### Step 31
 
+Click …
 
+![][image-2]
 ### Step 32
 
 Click …
 
-
+![][image-3]
 ### Step 33
-
-Click …
-
-
-### Step 34
 
 Select …
 
-
-### Step 35
+![][image-4]
+### Step 34
 
 Choose Edit  …
 
+![][image-5]
+### Step 35
 
+…
+
+![][image-6]
 ### Step 36
 
 …
 
-
+![][image-7]
 ### Step 37
 
-…
 
 
-### Step 38
-
-
-
-
+![][image-8]
 
 
 ## Summary
@@ -253,3 +216,25 @@ You created a fun story for looking at shipwrecks around the coasts of the Unite
 
 
 Continue to - [Exercise 2](../ex2/README.md)
+[image-1]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.01.png
+[image-2]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.02.png
+[image-3]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.03.png
+[image-4]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.04.png
+[image-5]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.05.png
+[image-6]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.06.png
+[image-7]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.07.png
+[image-8]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.08.png
+[image-9]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.09.png
+[image-10]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.10.png
+[image-11]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.11.png
+[image-12]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.12.png
+[image-13]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.13.png
+[image-14]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.14.png
+[image-15]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.15.png
+[image-16]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.16.png
+[image-17]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.17.png
+[image-18]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.18.png
+[image-19]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.19.png
+[image-20]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.20.png
+[image-21]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.21.png
+
