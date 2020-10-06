@@ -8,7 +8,7 @@ With release 2020.QRC3, SAP Analytics Cloud introduced an entirely new wrangling
 
 This workshop consists of a series of exercises to familiarize you with the capability and workflows of SAP Analytics Cloud’s new smart wrangler.  You’ll be using it both to create public datasets in the context of story creation.  Public datasets can be used just like models in stories, boardrooms and apps.   In addition, they can be used in smart predict scenarios and smart predict can export the results of prediction scenarios as datasets.  Embedded datasets, created within the context of a story, give the analyst the flexibility of toggling back and forth between wrangling and storytelling at will.
 
-There are four exercises, which use two different data sources.
+There are three exercises, which use two different data sources.
 
 
 ## Requirements
