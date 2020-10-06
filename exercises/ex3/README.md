@@ -209,6 +209,14 @@ Choose Edit  …
 You now have a fairly robust dataset for examining visitation statistics in US National Parks, Monuments Recreation, Lakeshores and Seashores.  Have fun seeing what you can tease out of it.  
 
 
+
+
+
+
+
+
+
+
 [image-1]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex3/images/Ex3.01.png
 [image-2]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex3/images/Ex3.02.png
 [image-3]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex3/images/Ex3.03.png

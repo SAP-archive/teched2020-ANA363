@@ -212,6 +212,14 @@ You created the beginnings of a dataset for examining visitation statistics in U
 
 
 Continue to - [Exercise 3](../ex3/README.md)
+
+
+
+
+
+
+
+
 [image-1]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.01.png
 [image-2]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.02.png
 [image-3]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.03.png
