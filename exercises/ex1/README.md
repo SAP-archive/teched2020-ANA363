@@ -88,7 +88,7 @@ Have a look at your dataset in the Dataset Overview panel.Note that the columns 
 ![][image-13]
 ### Step 14
 
-LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimensions, so make them dimensions by dragging them down to the dimension area.Alternatively, you can select the “more” menu (the ellipsis, …) on individual columns in the Dataset Overview.
+LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimensions, so make them dimensions by dragging them down to the dimension area.Alternatively, you can select the “more” menu (the ellipsis, …) on individual columns in the Dataset Overview.Repeat for every other measure, except for DEPTH.
 
 ![][image-14]
 ### Step 15
@@ -128,80 +128,220 @@ LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimen
 ![][image-21]
 ### Step 22
 
-Open …
 
-![][image-1]
+
+![][image-22]
 ### Step 23
 
-Click …
 
-![][image-2]
+
+![][image-23]
 ### Step 24
 
-Click …
 
-![][image-3]
+
+![][image-24]
 ### Step 25
 
-Select …
 
-![][image-4]
+
+![][image-25]
 ### Step 26
 
-Choose Edit  …
 
-![][image-5]
+
+![][image-26]
 ### Step 27
 
-…
 
-![][image-6]
+
+![][image-27]
 ### Step 28
 
-…
 
-![][image-7]
+
+![][image-28]
 ### Step 29
 
 
 
-![][image-8]
+![][image-29]
 ### Step 30
+
+
+
+![][image-30]
+### Step 31
+
+
+
+![][image-31]
+### Step 32
+
+
+
+![][image-32]
+### Step 33
+
+
+
+![][image-33]
+### Step 34
+
+
+
+![][image-34]
+### Step 35
+
+
+
+![][image-35]
+### Step 36
+
+
+
+![][image-36]
+### Step 37
+
+
+
+![][image-37]
+### Step 38
+
+
+
+![][image-38]
+### Step 39
+
+
+
+![][image-39]
+### Step 40
+
+
+
+![][image-40]
+### Step 41
+
+
+
+![][image-41]
+### Step 42
+
+
+
+![][image-42]
+### Step 43
+
+
+
+![][image-43]
+### Step 44
+
+
+
+![][image-44]
+### Step 45
+
+
+
+![][image-45]
+### Step 46
+
+
+
+![][image-46]
+### Step 47
+
+
+
+![][image-47]
+### Step 48
+
+
+
+![][image-48]
+### Step 49
+
+
+
+![][image-49]
+### Step 50
 
 Open …
 
 ![][image-1]
-### Step 31
+### Step 51
 
 Click …
 
 ![][image-2]
-### Step 32
+### Step 52
 
 Click …
 
 ![][image-3]
-### Step 33
+### Step 53
 
 Select …
 
 ![][image-4]
-### Step 34
+### Step 54
 
 Choose Edit  …
 
 ![][image-5]
-### Step 35
+### Step 55
 
 …
 
 ![][image-6]
-### Step 36
+### Step 56
 
 …
 
 ![][image-7]
-### Step 37
+### Step 57
+
+
+
+![][image-8]
+### Step 58
+
+Open …
+
+![][image-1]
+### Step 59
+
+Click …
+
+![][image-2]
+### Step 60
+
+Click …
+
+![][image-3]
+### Step 61
+
+Select …
+
+![][image-4]
+### Step 62
+
+Choose Edit  …
+
+![][image-5]
+### Step 63
+
+…
+
+![][image-6]
+### Step 64
+
+…
+
+![][image-7]
+### Step 65
 
 
 
@@ -216,6 +356,34 @@ You created a fun story for looking at shipwrecks around the coasts of the Unite
 
 
 Continue to - [Exercise 2](../ex2/README.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -258,4 +426,32 @@ Continue to - [Exercise 2](../ex2/README.md)
 [image-19]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.19.png
 [image-20]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.20.png
 [image-21]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.21.png
+[image-22]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.22.png
+[image-23]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.23.png
+[image-24]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.24.png
+[image-25]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.25.png
+[image-26]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.26.png
+[image-27]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.27.png
+[image-28]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.28.png
+[image-29]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.29.png
+[image-30]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.30.png
+[image-31]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.31.png
+[image-32]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.32.png
+[image-33]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.33.png
+[image-34]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.34.png
+[image-35]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.35.png
+[image-36]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.36.png
+[image-37]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.37.png
+[image-38]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.38.png
+[image-39]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.39.png
+[image-40]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.40.png
+[image-41]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.41.png
+[image-42]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.42.png
+[image-43]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.43.png
+[image-44]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.44.png
+[image-45]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.45.png
+[image-46]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.46.png
+[image-47]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.47.png
+[image-48]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.48.png
+[image-49]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.49.png
 

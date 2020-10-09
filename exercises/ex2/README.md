@@ -84,7 +84,7 @@ Have a look at your dataset in the Dataset Overview panel.Note that the columns 
 ![][image-13]
 ### Step 14
 
-LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimensions, so make them dimensions by dragging them down to the dimension area.Alternatively, you can select the “more” menu (the ellipsis, …) on individual columns in the Dataset Overview.
+LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimensions, so make them dimensions by dragging them down to the dimension area.Alternatively, you can select the “more” menu (the ellipsis, …) on individual columns in the Dataset Overview.Repeat for every other measure, except for DEPTH.
 
 ![][image-14]
 ### Step 15
@@ -124,80 +124,220 @@ LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimen
 ![][image-21]
 ### Step 22
 
-Open …
 
-![][image-1]
+
+![][image-22]
 ### Step 23
 
-Click …
 
-![][image-2]
+
+![][image-23]
 ### Step 24
 
-Click …
 
-![][image-3]
+
+![][image-24]
 ### Step 25
 
-Select …
 
-![][image-4]
+
+![][image-25]
 ### Step 26
 
-Choose Edit  …
 
-![][image-5]
+
+![][image-26]
 ### Step 27
 
-…
 
-![][image-6]
+
+![][image-27]
 ### Step 28
 
-…
 
-![][image-7]
+
+![][image-28]
 ### Step 29
 
 
 
-![][image-8]
+![][image-29]
 ### Step 30
+
+
+
+![][image-30]
+### Step 31
+
+
+
+![][image-31]
+### Step 32
+
+
+
+![][image-32]
+### Step 33
+
+
+
+![][image-33]
+### Step 34
+
+
+
+![][image-34]
+### Step 35
+
+
+
+![][image-35]
+### Step 36
+
+
+
+![][image-36]
+### Step 37
+
+
+
+![][image-37]
+### Step 38
+
+
+
+![][image-38]
+### Step 39
+
+
+
+![][image-39]
+### Step 40
+
+
+
+![][image-40]
+### Step 41
+
+
+
+![][image-41]
+### Step 42
+
+
+
+![][image-42]
+### Step 43
+
+
+
+![][image-43]
+### Step 44
+
+
+
+![][image-44]
+### Step 45
+
+
+
+![][image-45]
+### Step 46
+
+
+
+![][image-46]
+### Step 47
+
+
+
+![][image-47]
+### Step 48
+
+
+
+![][image-48]
+### Step 49
+
+
+
+![][image-49]
+### Step 50
 
 Open …
 
 ![][image-1]
-### Step 31
+### Step 51
 
 Click …
 
 ![][image-2]
-### Step 32
+### Step 52
 
 Click …
 
 ![][image-3]
-### Step 33
+### Step 53
 
 Select …
 
 ![][image-4]
-### Step 34
+### Step 54
 
 Choose Edit  …
 
 ![][image-5]
-### Step 35
+### Step 55
 
 …
 
 ![][image-6]
-### Step 36
+### Step 56
 
 …
 
 ![][image-7]
-### Step 37
+### Step 57
+
+
+
+![][image-8]
+### Step 58
+
+Open …
+
+![][image-1]
+### Step 59
+
+Click …
+
+![][image-2]
+### Step 60
+
+Click …
+
+![][image-3]
+### Step 61
+
+Select …
+
+![][image-4]
+### Step 62
+
+Choose Edit  …
+
+![][image-5]
+### Step 63
+
+…
+
+![][image-6]
+### Step 64
+
+…
+
+![][image-7]
+### Step 65
 
 
 

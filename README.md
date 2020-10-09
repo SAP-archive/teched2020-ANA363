@@ -8,18 +8,18 @@ With release 2020.QRC3, SAP Analytics Cloud introduced an entirely new wrangling
 
 This workshop consists of a series of exercises to familiarize you with the capability and workflows of SAP Analytics Cloud’s new smart wrangler.  You’ll be using it both to create public datasets in the context of story creation.  Public datasets can be used just like models in stories, boardrooms and apps.   In addition, they can be used in smart predict scenarios and smart predict can export the results of prediction scenarios as datasets.  Embedded datasets, created within the context of a story, give the analyst the flexibility of toggling back and forth between wrangling and storytelling at will.
 
-There are three exercises, which use two different data sources.
+There are three exercises, which collectively use two different data sources.
 
 
 ## Requirements
 
-You may use your own SAP Analytics Cloud tenant and user, or you may use the one provided to you for the session.  If you plan to use your own tenant, then please ensure that your user rights includes XXXX.  The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.
-
-The first dataset that you will be working with is the one that we’ll refer to in these exercises as the “Shipwreck Dataset”.  And comes from the United States National Oceanic and Atmospheric Administration (NOAA) Office of Coast Survey.  
-
-The second dataset is a compilation of query data from the United States National Park service data query builder website.  We’ll refer to this as the “National Parks Dataset”.
+You may use your own SAP Analytics Cloud tenant and user, or you may use the one provided to you for the session.  The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.
 
 The two data sources are enumerated in detail in the  and are provided to you in that folder as a convenience.
+
+*The first dataset that you will be working with is the one that we’ll refer to in these exercises as the “Shipwreck Dataset”.  And comes from the United States National Oceanic and Atmospheric Administration (NOAA) Office of Coast Survey.  
+*The second dataset is a compilation of query data from the United States National Park service data query builder website.  We’ll refer to this as the “National Parks Dataset”.
+
 
 
 
