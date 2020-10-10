@@ -463,7 +463,6 @@ Choose Edit  …
 You created the beginnings of a dataset for examining visitation statistics in US National Parks.
 
 
-Continue to - [Exercise 3](../ex3/README.md)
 
 
 

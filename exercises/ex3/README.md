@@ -460,6 +460,7 @@ Choose Edit  …
 
 ## Summary
 
+You now have a fairly robust dataset for examining visitation statistics in US National Parks, Monuments Recreation, Lakeshores and Seashores.  Have fun seeing what you can tease out of it.  
 
 
 

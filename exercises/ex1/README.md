@@ -467,7 +467,6 @@ Choose Edit  …
 You created a fun story for looking at shipwrecks around the coasts of the United States.  In the map, you and maneuver around and in the table, you can see details about the various wrecks.  Congratulations, you have learned the first basics of using the smart wrangler to get answers quickly.
 
 
-Continue to - [Exercise 2](../ex2/README.md)
 
 
 
