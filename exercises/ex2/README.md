@@ -5,7 +5,7 @@
 
 ## Objective
 
-Get your hiking boots on!  In this exercise, you will create a public dataset, with visitation data at a large portion of the United States National Park system.  This kind of public dataset is re-usable in many artifacts; including not just stories, apps and boardrooms, but smart predict scenarios as well.  The dataset that you create in Exercises 2 and 3 is used to demonstrate a predictive planning scenario in ANA200.
+Get your hiking boots on!  In this exercise, you will create a public dataset, with visitation data at a large portion of the United States National Park system.  This kind of public dataset is re-usable in many artifacts; including not just stories, apps and boardrooms, but smart predict scenarios as well.  The dataset that you create in Exercises 2 and 3 is used in the demo portion of the session ANA200 to demonstrate scenario analytics.
 
 
 ## What You Learn
@@ -14,7 +14,6 @@ Get your hiking boots on!  In this exercise, you will create a public dataset, w
 
 *How to create a Geo dimension based on area name.
 
-	
 
 
 ### Step 1
@@ -304,40 +303,155 @@ Choose Edit  …
 ![][image-8]
 ### Step 58
 
+
+
+![][image-9]
+### Step 59
+
+
+
+![][image-10]
+### Step 60
+
+
+
+![][image-11]
+### Step 61
+
+
+
+![][image-12]
+### Step 62
+
+
+
+![][image-13]
+### Step 63
+
+
+
+![][image-14]
+### Step 64
+
+
+
+![][image-15]
+### Step 65
+
+
+
+![][image-16]
+### Step 66
+
+
+
+![][image-17]
+### Step 67
+
+
+
+![][image-18]
+### Step 68
+
+
+
+![][image-19]
+### Step 69
+
+
+
+![][image-20]
+### Step 70
+
+
+
+![][image-21]
+### Step 71
+
+
+
+![][image-22]
+### Step 72
+
+
+
+![][image-23]
+### Step 73
+
+
+
+![][image-24]
+### Step 74
+
+
+
+![][image-25]
+### Step 75
+
+
+
+![][image-26]
+### Step 76
+
+
+
+![][image-27]
+### Step 77
+
+
+
+![][image-28]
+### Step 78
+
+
+
+![][image-29]
+### Step 79
+
+
+
+![][image-30]
+### Step 80
+
+
+
+![][image-31]
+### Step 81
+
 Open …
 
 ![][image-1]
-### Step 59
+### Step 82
 
 Click …
 
 ![][image-2]
-### Step 60
+### Step 83
 
 Click …
 
 ![][image-3]
-### Step 61
+### Step 84
 
 Select …
 
 ![][image-4]
-### Step 62
+### Step 85
 
 Choose Edit  …
 
 ![][image-5]
-### Step 63
+### Step 86
 
 …
 
 ![][image-6]
-### Step 64
+### Step 87
 
 …
 
 ![][image-7]
-### Step 65
+### Step 88
 
 
 
@@ -349,9 +463,30 @@ Choose Edit  …
 You created the beginnings of a dataset for examining visitation statistics in US National Parks.
 
 
-
-
 Continue to - [Exercise 3](../ex3/README.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -368,4 +503,27 @@ Continue to - [Exercise 3](../ex3/README.md)
 [image-6]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.06.png
 [image-7]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.07.png
 [image-8]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.08.png
+[image-9]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.09.png
+[image-10]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.10.png
+[image-11]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.11.png
+[image-12]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.12.png
+[image-13]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.13.png
+[image-14]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.14.png
+[image-15]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.15.png
+[image-16]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.16.png
+[image-17]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.17.png
+[image-18]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.18.png
+[image-19]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.19.png
+[image-20]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.20.png
+[image-21]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.21.png
+[image-22]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.22.png
+[image-23]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.23.png
+[image-24]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.24.png
+[image-25]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.25.png
+[image-26]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.26.png
+[image-27]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.27.png
+[image-28]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.28.png
+[image-29]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.29.png
+[image-30]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.30.png
+[image-31]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.31.png
 

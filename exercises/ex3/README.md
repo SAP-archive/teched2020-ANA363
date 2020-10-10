@@ -14,7 +14,6 @@ This is the part of the workshop where the power of the smart wrangler starts to
 
 *The basics of using the wrangler expression language (WEL)
 
-	
 
 
 ### Step 1
@@ -304,40 +303,155 @@ Choose Edit  …
 ![][image-8]
 ### Step 58
 
+
+
+![][image-9]
+### Step 59
+
+
+
+![][image-10]
+### Step 60
+
+
+
+![][image-11]
+### Step 61
+
+
+
+![][image-12]
+### Step 62
+
+
+
+![][image-13]
+### Step 63
+
+
+
+![][image-14]
+### Step 64
+
+
+
+![][image-15]
+### Step 65
+
+
+
+![][image-16]
+### Step 66
+
+
+
+![][image-17]
+### Step 67
+
+
+
+![][image-18]
+### Step 68
+
+
+
+![][image-19]
+### Step 69
+
+
+
+![][image-20]
+### Step 70
+
+
+
+![][image-21]
+### Step 71
+
+
+
+![][image-22]
+### Step 72
+
+
+
+![][image-23]
+### Step 73
+
+
+
+![][image-24]
+### Step 74
+
+
+
+![][image-25]
+### Step 75
+
+
+
+![][image-26]
+### Step 76
+
+
+
+![][image-27]
+### Step 77
+
+
+
+![][image-28]
+### Step 78
+
+
+
+![][image-29]
+### Step 79
+
+
+
+![][image-30]
+### Step 80
+
+
+
+![][image-31]
+### Step 81
+
 Open …
 
 ![][image-1]
-### Step 59
+### Step 82
 
 Click …
 
 ![][image-2]
-### Step 60
+### Step 83
 
 Click …
 
 ![][image-3]
-### Step 61
+### Step 84
 
 Select …
 
 ![][image-4]
-### Step 62
+### Step 85
 
 Choose Edit  …
 
 ![][image-5]
-### Step 63
+### Step 86
 
 …
 
 ![][image-6]
-### Step 64
+### Step 87
 
 …
 
 ![][image-7]
-### Step 65
+### Step 88
 
 
 
@@ -346,7 +460,6 @@ Choose Edit  …
 
 ## Summary
 
-You now have a fairly robust dataset for examining visitation statistics in US National Parks, Monuments Recreation, Lakeshores and Seashores.  Have fun seeing what you can tease out of it.  
 
 
 

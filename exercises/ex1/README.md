@@ -18,7 +18,6 @@ Shipwrecks Ahoy!  In this exercise, you will create a new story, with a linked m
 
 *How to create a Geo dimension in the smart wrangler
 
-	
 
 
 ### Step 1
@@ -308,40 +307,155 @@ Choose Edit  …
 ![][image-8]
 ### Step 58
 
+
+
+![][image-9]
+### Step 59
+
+
+
+![][image-10]
+### Step 60
+
+
+
+![][image-11]
+### Step 61
+
+
+
+![][image-12]
+### Step 62
+
+
+
+![][image-13]
+### Step 63
+
+
+
+![][image-14]
+### Step 64
+
+
+
+![][image-15]
+### Step 65
+
+
+
+![][image-16]
+### Step 66
+
+
+
+![][image-17]
+### Step 67
+
+
+
+![][image-18]
+### Step 68
+
+
+
+![][image-19]
+### Step 69
+
+
+
+![][image-20]
+### Step 70
+
+
+
+![][image-21]
+### Step 71
+
+
+
+![][image-22]
+### Step 72
+
+
+
+![][image-23]
+### Step 73
+
+
+
+![][image-24]
+### Step 74
+
+
+
+![][image-25]
+### Step 75
+
+
+
+![][image-26]
+### Step 76
+
+
+
+![][image-27]
+### Step 77
+
+
+
+![][image-28]
+### Step 78
+
+
+
+![][image-29]
+### Step 79
+
+
+
+![][image-30]
+### Step 80
+
+
+
+![][image-31]
+### Step 81
+
 Open …
 
 ![][image-1]
-### Step 59
+### Step 82
 
 Click …
 
 ![][image-2]
-### Step 60
+### Step 83
 
 Click …
 
 ![][image-3]
-### Step 61
+### Step 84
 
 Select …
 
 ![][image-4]
-### Step 62
+### Step 85
 
 Choose Edit  …
 
 ![][image-5]
-### Step 63
+### Step 86
 
 …
 
 ![][image-6]
-### Step 64
+### Step 87
 
 …
 
 ![][image-7]
-### Step 65
+### Step 88
 
 
 
@@ -351,8 +465,6 @@ Choose Edit  …
 ## Summary
 
 You created a fun story for looking at shipwrecks around the coasts of the United States.  In the map, you and maneuver around and in the table, you can see details about the various wrecks.  Congratulations, you have learned the first basics of using the smart wrangler to get answers quickly.
-
-
 
 
 Continue to - [Exercise 2](../ex2/README.md)
