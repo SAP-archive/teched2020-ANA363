@@ -267,6 +267,60 @@ If you refine your selection to the southern coast of New Jersey, you can see wr
 ![][image-49]
 
 
+## Summary
+
+You created a fun story for looking at shipwrecks around the coasts of the United States.  In the map, you and maneuver around and in the table, you can see details about the various wrecks.  Congratulations, you have learned the first basics of using the smart wrangler to get answers quickly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [image-1]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.01.png
 [image-2]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.02.png
 [image-3]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex1/images/Ex1.03.png
