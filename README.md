@@ -15,6 +15,14 @@ There are three exercises, which collectively use two different data sources.
 
 You may use your own SAP Analytics Cloud tenant and user, or you may use the one provided to you for the session.  The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.
 
+Tennant URL: 
+
+User Credentials:
+*Email:  to 
+*Password: Welcome01
+
+
+
 The two data sources are enumerated in detail in the  and are provided to you in that folder as a convenience.
 
 *The first dataset that you will be working with is the one that we’ll refer to in these exercises as the “Shipwreck Dataset”.  And comes from the United States National Oceanic and Atmospheric Administration (NOAA) Office of Coast Survey.  

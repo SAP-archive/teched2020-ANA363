@@ -18,7 +18,7 @@ Get your hiking boots on!  In this exercise, you will create a public dataset, w
 
 ### Step 1
 
-Open …
+
 
 ![][image-1]
 ### Step 2
@@ -171,11 +171,239 @@ Choose Edit  …
 
 
 ![][image-31]
+### Step 32
+
+
+
+![][image-32]
+### Step 33
+
+
+
+![][image-33]
+### Step 34
+
+
+
+![][image-34]
+### Step 35
+
+
+
+![][image-35]
+### Step 36
+
+
+
+![][image-36]
+### Step 37
+
+
+
+![][image-37]
+### Step 38
+
+
+
+![][image-38]
+### Step 39
+
+
+
+![][image-39]
+### Step 40
+
+
+
+![][image-40]
+### Step 41
+
+
+
+![][image-41]
+### Step 42
+
+
+
+![][image-42]
+### Step 43
+
+
+
+![][image-43]
+### Step 44
+
+
+
+![][image-44]
+### Step 45
+
+
+
+![][image-45]
+### Step 46
+
+
+
+![][image-46]
+### Step 47
+
+
+
+![][image-47]
+### Step 48
+
+
+
+![][image-48]
+### Step 49
+
+
+
+![][image-49]
+### Step 50
+
+
+
+![][image-50]
+### Step 51
+
+
+
+![][image-51]
+### Step 52
+
+
+
+![][image-52]
+### Step 53
+
+
+
+![][image-53]
+### Step 54
+
+
+
+![][image-54]
+### Step 55
+
+
+
+![][image-55]
+### Step 56
+
+
+
+![][image-56]
+### Step 57
+
+
+
+![][image-57]
+### Step 58
+
+
+
+![][image-58]
+### Step 59
+
+
+
+![][image-59]
+### Step 60
+
+
+
+![][image-60]
+### Step 61
+
+
+
+![][image-61]
+### Step 62
+
+
+
+![][image-62]
+### Step 63
+
+
+
+![][image-63]
+### Step 64
+
+
+
+![][image-64]
+### Step 65
+
+
+
+![][image-65]
+### Step 66
+
+
+
+![][image-66]
+### Step 67
+
+
+
+![][image-67]
+### Step 68
+
+
+
+![][image-68]
+### Step 69
+
+
+
+![][image-69]
 
 
 ## Summary
 
 You created the beginnings of a dataset for examining visitation statistics in US National Parks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -240,4 +468,42 @@ You created the beginnings of a dataset for examining visitation statistics in U
 [image-29]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.29.png
 [image-30]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.30.png
 [image-31]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.31.png
+[image-32]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.32.png
+[image-33]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.33.png
+[image-34]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.34.png
+[image-35]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.35.png
+[image-36]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.36.png
+[image-37]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.37.png
+[image-38]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.38.png
+[image-39]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.39.png
+[image-40]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.40.png
+[image-41]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.41.png
+[image-42]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.42.png
+[image-43]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.43.png
+[image-44]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.44.png
+[image-45]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.45.png
+[image-46]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.46.png
+[image-47]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.47.png
+[image-48]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.48.png
+[image-49]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.49.png
+[image-50]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.50.png
+[image-51]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.51.png
+[image-52]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.52.png
+[image-53]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.53.png
+[image-54]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.54.png
+[image-55]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.55.png
+[image-56]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.56.png
+[image-57]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.57.png
+[image-58]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.58.png
+[image-59]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.59.png
+[image-60]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.60.png
+[image-61]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.61.png
+[image-62]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.62.png
+[image-63]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.63.png
+[image-64]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.64.png
+[image-65]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.65.png
+[image-66]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.66.png
+[image-67]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.67.png
+[image-68]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.68.png
+[image-69]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.69.png
 
