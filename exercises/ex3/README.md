@@ -5,7 +5,7 @@
 
 ## Objective
 
-This is the part of the workshop where the power of the smart wrangler starts to become apparent.  In this exercise, you will take the public dataset that you started working on in Exercise 2 and enhance it.  You may have noticed that there are no readily apparent column for dates.  There is a year column and a month column, but nothing that can easily be called a date.  You’ll fix this (and never worry about oddball date formats agiain).  You’ll also slip a calculation right into the dataset.  
+This is the part of the workshop where the power of the smart wrangler starts to become apparent.  In this exercise, you will take the public dataset that you started working on in Exercise 2 and enhance it.  You may have noticed that there are no readily apparent column for dates.  There is a year column and a month column, but nothing that can easily be called a date.  You’ll fix this (and never worry about oddball date formats again).  You’ll also slip a calculation right into the dataset.  
 
 
 ## What You Learn

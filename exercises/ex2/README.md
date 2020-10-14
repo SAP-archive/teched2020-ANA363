@@ -14,261 +14,263 @@ Get your hiking boots on!  In this exercise, you will create a public dataset, w
 
 *How to create a Geo dimension based on area name.
 
+*
+
 
 
 ### Step 1
 
-
+On the Home menu, select Create >> Dataset
 
 ![][image-1]
 ### Step 2
 
-Click …
+When asked to choose where you would like to get your data, choose to upload a file.Unlike in Exercise 1, we will be creating a public dataset.
 
 ![][image-2]
 ### Step 3
 
-Click …
+When asked to choose where you would like to get your data, choose to upload a file.Unlike in Exercise 1, we will be creating a public dataset.
 
 ![][image-3]
 ### Step 4
 
-Select …
+Download NationalParkService_VisitationStats.csvif you have not done so already.Click Select Source File to choose the file.
 
 ![][image-4]
 ### Step 5
 
-Choose Edit  …
+Click Import.
 
 ![][image-5]
 ### Step 6
 
-…
+Give your dataset a name when prompted.
 
 ![][image-6]
 ### Step 7
 
-…
+The dataset will load.  Progress bars will indicate the progress in loading…
 
 ![][image-7]
 ### Step 8
 
-
+… and preparation the dataset import.
 
 ![][image-8]
 ### Step 9
 
-
+When dataset import and preparation is done, you will see the smart wrangler screen.
 
 ![][image-9]
 ### Step 10
 
-
+As we did in the embedded wrangling case, let’s start with a tour of the smart wrangler.  As in the embedded case. If your dataset is larger than 2000 rows, you will see a popup, informing you how big your dataset is and that the first 2000 rows have been sampled in the wrangler. The wrangler samples large datasets for the sake of interactive responsiveness.Again, the Dataset Overview in the Details pane replaces the card view from the classic wrangler. It lists the columns and groups measures and dimensions. Your data occupies the spreadsheet. In the Actions group of the toolbar, you have the menu options specific to wrangling.Because you are working with a public dataset, the Data/Story toggle is missing.
 
 ![][image-10]
 ### Step 11
 
-
+Year and Month have been flagged as probable measures, because they are numeric.  You’ll want them to be dimensions, so drag them down into the dimensions area.
 
 ![][image-11]
 ### Step 12
 
-
+Have a look at either of these dimensions in the Details pane.  Note the distribution of the data and the fact that both are Integer.
 
 ![][image-12]
 ### Step 13
 
-
+Switch them to string.  Note how the data distribution histogram changes.
 
 ![][image-13]
 ### Step 14
 
-
+We are going to create our first hierarchy.  Only level hierarchies can be created with the smart wrangler.  Start by selecting the Region dimension
 
 ![][image-14]
 ### Step 15
 
-
+From the Actions menu, click the Hierarchy button, to begin creating a new level hierarchy.
 
 ![][image-15]
 ### Step 16
 
-
+Region should already be in the hierarchy.  Add it if it is not already there and then add ParkType and ParkName.  Use the Select Dimension dropdown to add to levels to the hierarchy.
 
 ![][image-16]
 ### Step 17
 
-
+We’ll add a new Geo dimension.  This time, we’ll use Area Name to create it, instead of coordinates.Start by going to the Geo dimension icon and selecting Area Name from the dropdown.
 
 ![][image-17]
 ### Step 18
 
-
+You can choose to either assign a column as the country, or specify a single country.
 
 ![][image-18]
 ### Step 19
 
-
+Since all of our data is from the United States, choose Specify from a list of countries and choose United States from the dropdown.To add states to the Geo dimension, select the dropdown on Region and then assign the State column. Our data does not go down to the county level, so leave this blank.
 
 ![][image-19]
 ### Step 20
 
-
+Right away, you’ll notice that there is a validation issue.  Click on “1 issues” to look into it.
 
 ![][image-20]
 ### Step 21
 
-
+The smart wrangler does not like the state “VI”, which occurs 80 times in the initial sample of 2000 rows.  Click the Supported Locations link to download a csv file with all supported country, regions and sub regions. If you look in the csv, you’ll see that VI is not listed.  That’s because the supported regions for the US includes states only and not territories.  VI refers to Virgin Islands; specifically, the territory of the US Virgin Islands.  
 
 ![][image-21]
 ### Step 22
 
-
+There might be data beyond the samples with territories in the state name.  Click Validate Full Dataset to check this.  There are National Parks in three territories; Virgin Islands, American Samoa and Puerto Rico.
 
 ![][image-22]
 ### Step 23
 
-
+You’ll want to remove VI, AS (American Samoa) and PR (Puerto Rico)
 
 ![][image-23]
 ### Step 24
 
-
+Start by adding a filter transform, with the not matching operator (to keep values that don’t match)
 
 ![][image-24]
 ### Step 25
 
-
+Write “AS” as the value and click the checkmark to activate the filter.Repeat for VI and PR
 
 ![][image-25]
 ### Step 26
 
-
+After cleaning up the geo locations, you might notice a toast, indicating that there are issues elsewhere.
 
 ![][image-26]
 ### Step 27
 
-
+There are issues with the Recreation Visits and Recreation Hours measures.
 
 ![][image-27]
 ### Step 28
 
-
+We won’t be using the RecreationHours and NonRecreationHours measures, so you can go ahead and delete them.  This spares us from having to troubleshoot RecreationHours.Start by selecting both.  
 
 ![][image-28]
 ### Step 29
 
-
+From the more menu (the one with the ellipsis), select Delete Column.
 
 ![][image-29]
 ### Step 30
 
-
+This leaves us with only Recreation Visits as a problematic measure.
 
 ![][image-30]
 ### Step 31
 
-
+Have a look at RecreationVisits’ Details pane.  You’ll note two related issues.  The datatype is decimal and the values that the validator is complaining about all contain multiple periods.  The csv that you uploaded is in European format; with semicolons in place of the commas as dividers.  This in turn, is because the comma and not the period is used as the decimal separator in Europe.  The default Conversion Format presumes a North Amercan number format (comma for thousands separator and comma for decimal)You have two possible options for fixing this; both available from the Details panel:  You can change the Conversion Format to use the European format, or you can switch the Date Type to Decimal.  Don’t fix this problem yet.  Let’s just leave it for now.
 
 ![][image-31]
 ### Step 32
 
-
+Save your dataset and start creating a new story, to use it.
 
 ![][image-32]
 ### Step 33
 
-
+Select Add a Canvas Page
 
 ![][image-33]
 ### Step 34
 
-
+Click on Add Data
 
 ![][image-34]
 ### Step 35
 
-
+Select Data acquired from an existing dataset or model.
 
 ![][image-35]
 ### Step 36
 
-
+Select the dataset that you juts created.
 
 ![][image-36]
 ### Step 37
 
-
+When you add the dataset, SAP Analytics Cloud will automatically switch to the Data tab.  
 
 ![][image-37]
 ### Step 38
 
-
+Switch back to the Story tab.
 
 ![][image-38]
 ### Step 39
 
-
+Add a new map layer and make it fill the left side of the canvas.
 
 ![][image-39]
 ### Step 40
 
-
+Go to the Builder panel and select Add a Layer.
 
 ![][image-40]
 ### Step 41
 
-
+Choose Choropleth/Drill Layer.
 
 ![][image-41]
 ### Step 42
 
-
+Make sure that the layer type is Choropleth/Drill and the Style is Choropleth.
 
 ![][image-42]
 ### Step 43
 
-
+In the Location Dimension dropdown, choose the Geo Hierarchy that you created earlier.
 
 ![][image-43]
 ### Step 44
 
-
+For Choropleth Color, choose RecreationVisits.
 
 ![][image-44]
 ### Step 45
 
-
+This is what your geomap setup should look like.
 
 ![][image-45]
 ### Step 46
 
-
+Make sure that there is space above the map for an input control.
 
 ![][image-46]
 ### Step 47
 
-
+Add the Input Control.
 
 ![][image-47]
 ### Step 48
 
-
+In the popup that opens when you add a new input control, choose Dimensions
 
 ![][image-48]
 ### Step 49
 
-
+You’ll want to filter by year in the story, so choose Year.
 
 ![][image-49]
 ### Step 50
 
-
+Click the All Members box to select all years.  This will make all years available in the filter control.
 
 ![][image-50]
 ### Step 51
 
-
+Save your story. 
 
 ![][image-51]
 ### Step 52
@@ -278,95 +280,89 @@ Choose Edit  …
 ![][image-52]
 ### Step 53
 
-
+Navigate to view mode, by clicking on the View button.
 
 ![][image-53]
 ### Step 54
 
-
+You should see a geomap, generated on North America.Everything is red, because you have not drilled down and you are aggregating over all years.
 
 ![][image-54]
 ### Step 55
 
-
+Filter to 2019.
 
 ![][image-55]
 ### Step 56
 
-
+The map will now be filtered to 2019 figures.
 
 ![][image-56]
 ### Step 57
 
-
+Let’s drill down one level, to state.  Mouse over the red area, until the hover menu comes up.  Select Drill Down on Geo Hierarchy
 
 ![][image-57]
 ### Step 58
 
-
+You should see visitation differences.  California had the most national park visitors in 2019.  
 
 ![][image-58]
 ### Step 59
 
-
+We are now going to fix the problem identified in step 30.  The easy thing to do is to simply switch the conversion type, but we’ll show you another way; by stripping the original thousands separator out of the data.Start by going back to the dataset.And move RecreationVisits from the measures to the dimensions group.
 
 ![][image-59]
 ### Step 60
 
-
+Take a look at the data distribution and the Data Type.
 
 ![][image-60]
 ### Step 61
 
-
+Switch the Data Type to String.
 
 ![][image-61]
 ### Step 62
 
-
+Create a Transform in RecreationVisits.
 
 ![][image-62]
 ### Step 63
 
-
+Choose Replace.
 
 ![][image-63]
 ### Step 64
 
-
+Change cell to content.
 
 ![][image-64]
 ### Step 65
 
-
+…matching “” with should be changed.  Put a comma in place of the empty string.
 
 ![][image-65]
 ### Step 66
 
-
+Create another transform and do the same with periods.
 
 ![][image-66]
 ### Step 67
 
-
+Now move RecreationVisits back to the measures group.
 
 ![][image-67]
 ### Step 68
 
-
+Note that the issues are gone.  Your data is a bit cleaner and you can go back to touring your story.
 
 ![][image-68]
-### Step 69
-
-
-
-![][image-69]
 
 
 ## Summary
 
 You created the beginnings of a dataset for examining visitation statistics in US National Parks.
-
 
 
 
@@ -505,5 +501,4 @@ You created the beginnings of a dataset for examining visitation statistics in U
 [image-66]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.66.png
 [image-67]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.67.png
 [image-68]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.68.png
-[image-69]:    https://github.com/SAP-samples/teched2020-ANA363/blob/master/exercises/ex2/images/Ex2.69.png
 
