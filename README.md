@@ -15,7 +15,7 @@ There are three exercises, which collectively use two different data sources.
 
 You may use your own SAP Analytics Cloud tenant and user, or you may use the one provided to you for the session.  The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.
 
-Tennant URL: 
+Tennant URL: [https://ana363.eu10.hcs.cloud.sap](https://ana363.eu10.hcs.cloud.sap)
 
 User Credentials:
 *Email:  to 
