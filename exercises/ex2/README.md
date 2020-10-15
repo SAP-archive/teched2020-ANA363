@@ -27,13 +27,17 @@ On the Home menu, select Create >> Dataset
 ### Step 2
 
 
-When asked to choose where you would like to get your data, choose to upload a file.Unlike in Exercise 1, we will be creating a public dataset.
+When asked to choose where you would like to get your data, choose to upload a file.
+
+Unlike in Exercise 1, we will be creating a public dataset.
 
 ![][image-2]
 ### Step 3
 
 
-Download NationalParkService_VisitationStats.csvif you have not done so already.Click Select Source File to choose the file.
+Download NationalParkService_VisitationStats.csvif you have not done so already.
+
+Click Select Source File to choose the file.
 
 ![][image-3]
 ### Step 4
@@ -69,7 +73,15 @@ When dataset import and preparation is done, you will see the smart wrangler scr
 ### Step 9
 
 
-As we did in the embedded wrangling case, let’s start with a tour of the smart wrangler.  As in the embedded case. If your dataset is larger than 2000 rows, you will see a popup, informing you how big your dataset is and that the first 2000 rows have been sampled in the wrangler. The wrangler samples large datasets for the sake of interactive responsiveness.Again, the Dataset Overview in the Details pane replaces the card view from the classic wrangler. It lists the columns and groups measures and dimensions. Your data occupies the spreadsheet. In the Actions group of the toolbar, you have the menu options specific to wrangling.Because you are working with a public dataset, the Data/Story toggle is missing.
+As we did in the embedded wrangling case, let’s start with a tour of the smart wrangler.  
+*As in the embedded case. If your dataset is larger than 2000 rows, you will see a popup, informing you how big your dataset is and that the first 2000 rows have been sampled in the wrangler. The wrangler samples large datasets for the sake of interactive responsiveness.
+
+*Again, the Dataset Overview in the Details pane replaces the card view from the classic wrangler. 
+
+*It lists the columns and groups measures and dimensions. Your data occupies the spreadsheet. In the Actions group of the toolbar, you have the menu options specific to wrangling.
+
+*Because you are working with a public dataset, the Data/Story toggle is missing.
+
 
 ![][image-9]
 ### Step 10
@@ -93,7 +105,9 @@ Switch them to string.  Note how the data distribution histogram changes.
 ### Step 13
 
 
-We are going to create our first hierarchy.  Only level hierarchies can be created with the smart wrangler.  Start by selecting the Region dimension
+We are going to create our first hierarchy.  Only level hierarchies can be created with the smart wrangler.  
+
+Start by selecting the Region dimension
 
 ![][image-13]
 ### Step 14
@@ -111,7 +125,9 @@ Region should already be in the hierarchy.  Add it if it is not already there an
 ### Step 16
 
 
-We’ll add a new Geo dimension.  This time, we’ll use Area Name to create it, instead of coordinates.Start by going to the Geo dimension icon and selecting Area Name from the dropdown.
+We’ll add a new Geo dimension.  This time, we’ll use Area Name to create it, instead of coordinates.
+
+Start by going to the Geo dimension icon and selecting Area Name from the dropdown.
 
 ![][image-16]
 ### Step 17
@@ -123,7 +139,11 @@ You can choose to either assign a column as the country, or specify a single cou
 ### Step 18
 
 
-Since all of our data is from the United States, choose Specify from a list of countries and choose United States from the dropdown.To add states to the Geo dimension, select the dropdown on Region and then assign the State column. Our data does not go down to the county level, so leave this blank.
+Since all of our data is from the United States, choose Specify from a list of countries and choose United States from the dropdown.
+
+To add states to the Geo dimension, select the dropdown on Region and then assign the State column. 
+
+Our data does not go down to the county level, so leave this blank.
 
 ![][image-18]
 ### Step 19
@@ -135,13 +155,17 @@ Right away, you’ll notice that there is a validation issue.  Click on “1 iss
 ### Step 20
 
 
-The smart wrangler does not like the state “VI”, which occurs 80 times in the initial sample of 2000 rows.  Click the Supported Locations link to download a csv file with all supported country, regions and sub regions. If you look in the csv, you’ll see that VI is not listed.  That’s because the supported regions for the US includes states only and not territories.  VI refers to Virgin Islands; specifically, the territory of the US Virgin Islands.  
+The smart wrangler does not like the state “VI”, which occurs 80 times in the initial sample of 2000 rows.  Click the Supported Locations link to download a csv file with all supported country, regions and sub regions. 
+
+If you look in the csv, you’ll see that VI is not listed.  That’s because the supported regions for the US includes states only and not territories.  VI refers to Virgin Islands; specifically, the territory of the US Virgin Islands.  
 
 ![][image-20]
 ### Step 21
 
 
-There might be data beyond the samples with territories in the state name.  Click Validate Full Dataset to check this.  There are National Parks in three territories; Virgin Islands, American Samoa and Puerto Rico.
+There might be data beyond the samples with territories in the state name.  Click Validate Full Dataset to check this.  
+
+There are National Parks in three territories; Virgin Islands, American Samoa and Puerto Rico.
 
 ![][image-21]
 ### Step 22
@@ -159,7 +183,9 @@ Start by adding a filter transform, with the not matching operator (to keep valu
 ### Step 24
 
 
-Write “AS” as the value and click the checkmark to activate the filter.Repeat for VI and PR
+Write “AS” as the value and click the checkmark to activate the filter.
+
+Repeat for VI and PR
 
 ![][image-24]
 ### Step 25
@@ -173,11 +199,15 @@ After cleaning up the geo locations, you might notice a toast, indicating that t
 
 There are issues with the Recreation Visits and Recreation Hours measures.
 
+
+
 ![][image-26]
 ### Step 27
 
 
-We won’t be using the RecreationHours and NonRecreationHours measures, so you can go ahead and delete them.  This spares us from having to troubleshoot RecreationHours.Start by selecting both.  
+We won’t be using the RecreationHours and NonRecreationHours measures, so you can go ahead and delete them.  This spares us from having to troubleshoot RecreationHours.
+
+Start by selecting both.  
 
 ![][image-27]
 ### Step 28
@@ -195,7 +225,13 @@ This leaves us with only Recreation Visits as a problematic measure.
 ### Step 30
 
 
-Have a look at RecreationVisits’ Details pane.  You’ll note two related issues.  The datatype is decimal and the values that the validator is complaining about all contain multiple periods.  The csv that you uploaded is in European format; with semicolons in place of the commas as dividers.  This in turn, is because the comma and not the period is used as the decimal separator in Europe.  The default Conversion Format presumes a North Amercan number format (comma for thousands separator and comma for decimal)You have two possible options for fixing this; both available from the Details panel:  You can change the Conversion Format to use the European format, or you can switch the Date Type to Decimal.  Don’t fix this problem yet.  Let’s just leave it for now.
+Have a look at RecreationVisits’ Details pane.  You’ll note two related issues.  The datatype is decimal and the values that the validator is complaining about all contain multiple periods.  
+
+The csv that you uploaded is in European format; with semicolons in place of the commas as dividers.  This in turn, is because the comma and not the period is used as the decimal separator in Europe.  The default Conversion Format presumes a North Amercan number format (comma for thousands separator and comma for decimal)
+
+You have two possible options for fixing this; both available from the Details panel:  You can change the Conversion Format to use the European format, or you can switch the Date Type to Decimal.  
+
+Don’t fix this problem yet.  Let’s just leave it for now.
 
 ![][image-30]
 ### Step 31
@@ -333,7 +369,9 @@ Navigate to view mode, by clicking on the View button.
 ### Step 53
 
 
-You should see a geomap, generated on North America.Everything is red, because you have not drilled down and you are aggregating over all years.
+You should see a geomap, generated on North America.
+
+Everything is red, because you have not drilled down and you are aggregating over all years.
 
 ![][image-53]
 ### Step 54
@@ -351,7 +389,9 @@ The map will now be filtered to 2019 figures.
 ### Step 56
 
 
-Let’s drill down one level, to state.  Mouse over the red area, until the hover menu comes up.  Select Drill Down on Geo Hierarchy
+Let’s drill down one level, to state.  Mouse over the red area, until the hover menu comes up.  
+
+Select Drill Down on Geo Hierarchy
 
 ![][image-56]
 ### Step 57
@@ -363,7 +403,11 @@ You should see visitation differences.  California had the most national park vi
 ### Step 58
 
 
-We are now going to fix the problem identified in step 30.  The easy thing to do is to simply switch the conversion type, but we’ll show you another way; by stripping the original thousands separator out of the data.Start by going back to the dataset.And move RecreationVisits from the measures to the dimensions group.
+We are now going to fix the problem identified in step 30.  The easy thing to do is to simply switch the conversion type, but we’ll show you another way; by stripping the original thousands separator out of the data.
+
+Start by going back to the dataset.
+
+And move RecreationVisits from the measures to the dimensions group.
 
 ![][image-58]
 ### Step 59

@@ -47,19 +47,27 @@ Let’s click the button to add some data!
 ### Step 5
 
 
-When asked to choose where you would like to get your data, choose to upload a file.Important!  Choosing either to upload data or to connect to a source will create an new embedded dataset, where the dataset exists inside the story and is not accessible from anywhere else.   
+When asked to choose where you would like to get your data, choose to upload a file.
+
+Important!  Choosing either to upload data or to connect to a source will create an new embedded dataset, where the dataset exists inside the story and is not accessible from anywhere else.   
 
 ![][image-5]
 ### Step 6
 
 
-Download AWOIS_Wrecks.csv if you have not already done so.  Click Select Source File to choose the file.
+Download AWOIS_Wrecks.csv if you have not already done so.  
+
+Click Select Source File to choose the file.
 
 ![][image-6]
 ### Step 7
 
 
-Select the location where you have saved AWOIS_Wrecks.csv.  Click Import.Give your dataset a name when prompted.
+Select the location where you have saved AWOIS_Wrecks.csv.  
+
+Click Import.
+
+Give your dataset a name when prompted.
 
 ![][image-7]
 ### Step 8
@@ -77,7 +85,18 @@ When dataset import and preparation is done, you will see the smart wrangler scr
 ### Step 10
 
 
-Before we venture any further, let’s take a tour of the various parts of the smart wrangler UI. If your dataset is larger than 2000 rows, you will see a popup, informing you how big your dataset is and that the first 2000 rows have been sampled in the wrangler.  The wrangler samples large datasets for the sake of interactive responsiveness.The Dataset Overview in the Details pane replaces the card view from the classic wrangler.  It lists the columns and groups measures and dimensions.  Your data occupies the spreadsheet.Because you are working with an embedded dataset, you can freely toggle back and forth between the wrangler and story builder.In the Actions group of the toolbar, you have the menu options specific to wrangling.
+Before we venture any further, let’s take a tour of the various parts of the smart wrangler UI. 
+
+*If your dataset is larger than 2000 rows, you will see a popup, informing you how big your dataset is and that the first 2000 rows have been sampled in the wrangler.  The wrangler samples large datasets for the sake of interactive responsiveness.
+
+*The Dataset Overview in the Details pane replaces the card view from the classic wrangler.  It lists the columns and groups measures and dimensions.  
+
+*Your data occupies the spreadsheet.
+
+*Because you are working with an embedded dataset, you can freely toggle back and forth between the wrangler and story builder.
+
+*In the Actions group of the toolbar, you have the menu options specific to wrangling.
+
 
 ![][image-10]
 ### Step 11
@@ -89,19 +108,34 @@ Save your story and name it for the first time, so that you can save it as you w
 ### Step 12
 
 
-Have a look at your dataset in the Dataset Overview panel.Note that the columns with text columns have been flagged as dimensions and the ones with numerical values have been flagged as probable measures.
+Have a look at your dataset in the Dataset Overview panel.
+
+Note that the columns with text columns have been flagged as dimensions and the ones with numerical values have been flagged as probable measures.
+
+
 
 ![][image-12]
 ### Step 13
 
 
-LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimensions, so make them dimensions by dragging them down to the dimension area.Alternatively, you can select the “more” menu (the ellipsis, …) on individual columns in the Dataset Overview.Repeat for every other measure, except for DEPTH.
+LATDEC is latitude and LONDEC is Longitude.  You’ll want to use these as dimensions, so make them dimensions by dragging them down to the dimension area.
+
+
+Alternatively, you can select the “more” menu (the ellipsis, …) on individual columns in the Dataset Overview.
+
+Repeat for every other measure, except for DEPTH.
 
 ![][image-13]
 ### Step 14
 
 
-VESSELTERMS is usually the name of the ship, or a short description.  We will be adding it to a geo dimension, so that ship names show up in the map.  Because doing so will convert it to a property, it will no longer be available as a dimension and we’ll also want to add the ship name to a table, so let’s duplicate it before adding it to the hierarchy.Select the VESSELTERMS column header.  Select the context menu and mouse over the ellipsis ( … )Select Duplicate Column
+VESSELTERMS is usually the name of the ship, or a short description.  We will be adding it to a geo dimension, so that ship names show up in the map.  Because doing so will convert it to a property, it will no longer be available as a dimension and we’ll also want to add the ship name to a table, so let’s duplicate it before adding it to the hierarchy.
+
+Select the VESSELTERMS column header.  
+
+Select the context menu and mouse over the ellipsis ( … )
+
+Select Duplicate Column
 
 ![][image-14]
 ### Step 15
@@ -125,13 +159,21 @@ Select the Depth column
 ### Step 18
 
 
-Have a look at this measure in the Details pane.  Note that its default aggregation is SUM, the data type is decimal.  The statistical type is continuous.  This is only used by Smart Predict.  Also note the data distribution histogram.This dataset – and specifically this measure - has a lot of incomplete data.  Wrecks with no depth information are not very interesting to us, so we’ll get rid of those entries.What we do NOT want to do is actually delete this data.  We want to leave it in the fact table for use later.  We just don’t want it surfaced to stories with now and want to be able to reverse this decision later.  To so this, we’ll add a background filter.
+Have a look at this measure in the Details pane.  Note that its default aggregation is SUM, the data type is decimal.  The statistical type is continuous.  This is only used by Smart Predict.  Also note the data distribution histogram.
+
+This dataset – and specifically this measure - has a lot of incomplete data.  Wrecks with no depth information are not very interesting to us, so we’ll get rid of those entries.
+
+What we do NOT want to do is actually delete this data.  We want to leave it in the fact table for use later.  We just don’t want it surfaced to stories with now and want to be able to reverse this decision later.  To so this, we’ll add a background filter.
+
+
 
 ![][image-18]
 ### Step 19
 
 
-Navigate to the grid, select the context menu in the header row of the DEPTH column.Choose Create a Transform
+Navigate to the grid, select the context menu in the header row of the DEPTH column.
+
+Choose Create a Transform
 
 ![][image-19]
 ### Step 20
@@ -143,7 +185,9 @@ Choose Filter.
 ### Step 21
 
 
-We want to keep everything with a value; so, leave the operator to “not matching”.Note that the default text is not actually a value.  It is merely a display placeholder, indicating that you can enter a value here.  If you enter nothing, then it will be an empty string.  That is exactly what we want here.
+We want to keep everything with a value; so, leave the operator to “not matching”.
+
+Note that the default text is not actually a value.  It is merely a display placeholder, indicating that you can enter a value here.  If you enter nothing, then it will be an empty string.  That is exactly what we want here.
 
 ![][image-21]
 ### Step 22
@@ -155,19 +199,27 @@ To execute the transform, click the checkmark button, at the right end of the tr
 ### Step 23
 
 
-With any kind of transform, you see a short-lived success or error message at the bottom of the screen.  Trivia: UI designers call this sort of ephemeral popup a “toast”.
+With any kind of transform, you see a short-lived success or error message at the bottom of the screen.  
+
+Trivia: UI designers call this sort of ephemeral popup a “toast”.
 
 ![][image-23]
 ### Step 24
 
 
-Now we’ll create the geo dimension, that we alluded to when copying the VESSELTERMS dimension.To do this, Click the dropdown arrow on the geo-location icon, in the Actions group.Select Coordinates (because we have latitude and longitude dimensions on hand)
+Now we’ll create the geo dimension, that we alluded to when copying the VESSELTERMS dimension.
+
+To do this, Click the dropdown arrow on the geo-location icon, in the Actions group.
+
+Select Coordinates (because we have latitude and longitude dimensions on hand)
 
 ![][image-24]
 ### Step 25
 
 
-The smart wrangler will try to guess which dimensions might be latitude and longitude.  In this case, you might need to assist it with one of the dimensions.Also make sure your dimension is called Location (the default name)
+The smart wrangler will try to guess which dimensions might be latitude and longitude.  In this case, you might need to assist it with one of the dimensions.
+
+Also make sure your dimension is called Location (the default name)
 
 ![][image-25]
 ### Step 26
@@ -187,11 +239,16 @@ In the dimension properties, choose VESSELTERMS.  (we are choosing vesselterms, 
 
 You can see the columns that participate in the geo dimension.  
 
+
 ![][image-28]
 ### Step 29
 
 
-You will now want to work on the story a bit.  Navigate to the upper left and toggle from Data to Story.  Note!  Because this is an embedded dataset, you can go back to the wrangler at any time, by toggling to Data. Within the Data tab, the two buttons in the Mode group act as toggles between Explorer mode and the Wrangler. If you close, re-open the story in edit mode and then toggle to Data, it will default to Explorer.  You can get back to the wrangler by selecting the grid icon in the Mode group. 
+You will now want to work on the story a bit.  Navigate to the upper left and toggle from Data to Story.  
+
+Note!  Because this is an embedded dataset, you can go back to the wrangler at any time, by toggling to Data. Within the Data tab, the two buttons in the Mode group act as toggles between Explorer mode and the Wrangler. 
+
+If you close, re-open the story in edit mode and then toggle to Data, it will default to Explorer.  You can get back to the wrangler by selecting the grid icon in the Mode group. 
 
 ![][image-29]
 ### Step 30
@@ -287,7 +344,9 @@ At this point, you have made two consecutive transforms on FEATURE_TYPE.  Toggle
 ### Step 45
 
 
-In the Transform Log panel, you can toggle back and forth between the transforms made on the entire dataset and those made on just a particular column, by selecting the icons in the blue bar at the top of the pane.In the Dataset Transform Log, we can see (and delete) all transforms done on the dataset, regardless of column.
+In the Transform Log panel, you can toggle back and forth between the transforms made on the entire dataset and those made on just a particular column, by selecting the icons in the blue bar at the top of the pane.
+
+In the Dataset Transform Log, we can see (and delete) all transforms done on the dataset, regardless of column.
 
 ![][image-45]
 ### Step 46
