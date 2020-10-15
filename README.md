@@ -22,14 +22,9 @@ User Credentials:
 *Password: Welcome01
 
 
-
 The two data sources are enumerated in detail in the  and are provided to you in that folder as a convenience.
-
 *The first dataset that you will be working with is the one that we’ll refer to in these exercises as the “Shipwreck Dataset”.  And comes from the United States National Oceanic and Atmospheric Administration (NOAA) Office of Coast Survey.  
 *The second dataset is a compilation of query data from the United States National Park service data query builder website.  We’ll refer to this as the “National Parks Dataset”.
-
-
-
 
 
 
