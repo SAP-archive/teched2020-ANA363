@@ -18,7 +18,7 @@ You may use your own SAP Analytics Cloud tenant and user, or you may use the one
 Tennant URL: [https://ana363.eu10.hcs.cloud.sap](https://ana363.eu10.hcs.cloud.sap)
 
 User Credentials:
-*Email:  to 
+*Email: sapteched2020ana363+1@sap.com to sapteched2020ana363+50@sap.com
 *Password: Welcome01
 
 
