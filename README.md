@@ -34,16 +34,16 @@ The two data sources are enumerated in detail in the  and are provided to you in
 
 There are three exercises in this workshop.
 
-[Exercise 1][https://github.com/SAP-samples/teched2020-ANA363/tree/main/exercises/ex1] will use the shipwreck dataset.  It will demonstrate the following features:
+[Exercise 1](https://github.com/SAP-samples/teched2020-ANA363/tree/main/exercises/ex1) will use the shipwreck dataset.  It will demonstrate the following features:
 *Wrangling Basics
 *Wrangling in an embedded scenario
 *Geo Dimensions based on latitude and longitude
 
-[Exercise 2][https://github.com/SAP-samples/teched2020-ANA363/tree/main/exercises/ex2] will use the National Park Dataset.  It will demonstrate the following features:
+[Exercise 2](https://github.com/SAP-samples/teched2020-ANA363/tree/main/exercises/ex2) will use the National Park Dataset.  It will demonstrate the following features:
 *Creating Level Hierarchies
 *Geo Dimensions based on location names
 
-[Exercise 3][https://github.com/SAP-samples/teched2020-ANA363/tree/main/exercises/ex3] will continue using the National Park Dataset.  It will demonstrate the wrangler expression language (WEL).  
+[Exercise 3](https://github.com/SAP-samples/teched2020-ANA363/tree/main/exercises/ex3) will continue using the National Park Dataset.  It will demonstrate the wrangler expression language (WEL).  
 
 
 
