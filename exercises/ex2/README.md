@@ -471,70 +471,7 @@ Note that the issues are gone.  Your data is a bit cleaner and you can go back t
 You created the beginnings of a dataset for examining visitation statistics in US National Parks.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Continue to Exercise 3](https://github.com/SAP-samples/teched2020-ANA363/tree/main/exercises/ex3)
 
 
 
