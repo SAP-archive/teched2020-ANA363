@@ -13,14 +13,15 @@ There are three exercises, which collectively use two different data sources.
 
 ## Requirements
 
-You may use your own SAP Analytics Cloud tenant and user, or you may use the one provided to you for the session.  The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.
+You may use your own SAP Analytics Cloud tenant and user, or you may use the one provided to you for the session.  The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.  
 
 Tennant URL: [https://ana363.eu10.hcs.cloud.sap](https://ana363.eu10.hcs.cloud.sap)
 
 User Credentials -
-Email: sapteched2020ana363+1@sap.com to sapteched2020ana363+50@sap.com
+Email: sapteched2020ana363+1@sap.com to sapteched2020ana363+99@sap.com
 Password: Welcome01
 
+There is no guarantee that two people are not trying to use the same user at the same time.  If you have a suitable tenant available, we recomend using that instead of the provided tenant simply to have your own personal user.  As there are 99 users provisioned on ana363.eu10.hcs.cloud.sap, you can choose from one of nearly a hundred users and we hope to help avoid user collisions this way, but we still can't rule it out.
 
 The two data sources are enumerated in detail in the  and are provided to you in that folder as a convenience.
 *The first dataset that you will be working with is the one that we’ll refer to in these exercises as the “Shipwreck Dataset”.  And comes from the United States National Oceanic and Atmospheric Administration (NOAA) Office of Coast Survey.  
