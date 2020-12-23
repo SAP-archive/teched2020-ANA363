@@ -1,6 +1,8 @@
 # ANA363 - Advanced Wrangling in SAP Analytics Cloud
-## Description
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2020-ANA363)](https://api.reuse.software/info/github.com/SAP-samples/teched2020-ANA363)
+
+## Description
 
 With release 2020.QRC3, SAP Analytics Cloud introduced an entirely new wrangling engine and began a major overhaul of how analysts work with data.  In these exercises, you will take a tour of new smart wrangler in SAP Analytics Cloud.  
 
